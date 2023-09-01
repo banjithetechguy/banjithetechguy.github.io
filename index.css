@@ -1,0 +1,159 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+.header1 {
+    background-color: aquamarine;
+    padding: 15px;
+    display: flex;
+    gap: 100px;
+}
+.home {
+    display: flex;
+    gap: 50px;
+    padding-left: 200px;
+}
+.search1 {
+    padding-left: 30%;
+    padding-top: 10px;
+}
+#search2 {
+    padding: 20px;
+    border-radius: 6px;
+    width: 25rem;
+}
+.button1 {
+    padding: 20px;
+    border-radius: 6px;
+}
+.button1:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.image {
+    position: relative;
+}
+.first {
+    position: absolute;
+    top: 500px;
+    left: 200px; 
+    padding: 15px; 
+    width: 25%;
+    border-radius: 20px;
+    background-color: aqua;
+    border: solid black;
+}
+.second {
+    position: absolute;
+    top: 500px;
+    left:600px ;
+    padding: 15px;
+    width: 25%;
+    border-radius: 20px;
+    background-color: aqua;
+    border: solid black;
+}
+.first:hover {
+    background-color: aquamarine;
+}
+.second:hover {
+    background-color: aquamarine;
+}
+.button-whatsapp{
+    padding: 40px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    border: solid white;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1)
+}
+.button-whatsapp:hover {
+    background-color: aqua;
+}
+
+.button-instagram {
+    padding: 40px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    border: solid white;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1)
+}
+.button-instagram:hover {
+    background-color: aqua;
+}
+.button-twitter {
+    padding: 40px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    border: solid white;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1)
+}
+.button-twitter:hover {
+    background-color: aqua;
+}
+.whatsapp2 {
+    display: flex;
+    gap: 150px;
+    padding-left: 145px;
+    padding-top: 70px;
+} 
+.follow-us {
+    padding: 30px;
+    border-radius: 25px;
+    background-color: aquamarine;
+    width: 50%;
+    border: solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.follow-us2 {
+    /* padding-left:20%; */
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.follow-us:hover {
+    background-color: aqua;
+}
+.about1{
+   display: flex ;
+    justify-content: center;
+    align-content: center;
+    padding-top: 150px;
+}
+.our-services {
+padding-top: 70px;
+}
+.our-services2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.our-services3 {
+    display: grid;
+    gap: 15px;
+}
+footer {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 70px;
+    
+}
+#message {
+ height: 100px;
+}
+.sending {
+    border-radius: 12px;
+    background-color: aquamarine;
+    padding: 10px;
+    cursor: pointer;
+}
+.sending:hover {
+    background-color: aqua;
+}
+.footers {
+    padding: 100px;
+}
